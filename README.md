@@ -12,3 +12,10 @@ Python script with utilty functions used in the notebooks:
 * **pydata_simpsons.py**
 
 There are also HTML versions of all the notebooks, provided for the benefit of anyone not able to run the notebooks.
+
+Requirements:
+* Latest versions of [pandas](http://pandas.pydata.org/) and [jupyter notebook](http://jupyter.org/) (recommended: use [Anaconda](https://www.continuum.io/downloads))
+* data.world Python SDK 
+  * `conda install -c conda-forge datadotworld-py` (if using Anaconda)
+  * `pip install git+git://github.com/datadotworld/data.world-py.git` (if not using Anaconda)
+* a data.world account and an API key (via the [data.world Advanced Settings page](https://data.world/settings/advanced))
